@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+}
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(farthest-side, rgb(149, 62, 62), rgb(69, 129, 213));
+    height: 70px;
+    width: 100%;
+}
+
+.nav-bar .nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-bar .nav-list li {
+    display: inline-block;
+    margin-left: 7%;
+}
+
+.nav-bar .nav-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.wwe-img {
+    height: 300px;
+}
+
+#raw-link:hover{
+    color: rgb(246, 54, 54);
+}
+
+#smackdown-link:hover{
+    color: rgb(0, 128, 248);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.raw {
+    height: 250px;
+}
+
+.smackdown {
+    height: 250px;
+}
